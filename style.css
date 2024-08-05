@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Proda Sans';
+    src: url('Nasir Udin - ProdaSans-Medium.otf') format('opentype');
+    font-weight: 500; /* Usualmente, 500 é o peso médio */
+    font-style: normal;
+}
+
+body {
+    font-family: 'Proda Sans', sans-serif;
+    background:#FFFFFF;
+    margin:0px;
+}
+
+header {
+  padding: 10px;
+  background:#c4170c;
+  margin-bottom: 45px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 10px #0000006f;
+}
+
+
+header a {
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+header h2 {
+  text-align: center;
+  color: #FDF7F7;
+  font-size: 1.4em;
+  margin: 5px;
+  font-weight: normal;
+  text-shadow: 1px 1px 10px #000000;
+}
+
+header p {
+  color:#FDF7F7;
+  margin: 5px;
+}
+
+section {
+  margin: 20px;
+  color: #202123;
+}
+
+section h1 {
+  font-size: 32px;
+  color: #1F2022;
+  line-height: 1.3em;
+}
+
+section p {
+  line-height: 1.2em;
+  color: #98999A;
+}
+
+section .corpo-texto {
+  line-height: 1.5em;
+  color: #000000a6;
+}
+
+section h5 {
+  color: #7D7D7F;
+}
+
+section #creditos-site {
+  text-align: center;
+  margin: 3px;
+  margin-bottom: 10px;
+  font-size: 5px;
+}
+
+section #creditos-site a {
+  text-decoration: none;
+  color: red;
+}
+
+section #creditos-site a:hover {
+  text-decoration: underline;
+}
+  
+
+section img {
+  box-shadow: 3px 5px 10px #0000002d;
+  height: 500px;
+  width: 100%;
+  display: block;
+  height: 250px;
+  border: 1px solid #00000044;
+  border-radius: 10px;
+}
+
+.Redes-sociais {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.Redes-sociais img {
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 25px;
+  background: #F5F6F8;
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+.final {
+  background:#5d0f0a ;
+  padding: 10px;
+  margin: 0px;
+}
+.final h1 {
+  margin:0px;
+  color: white;
+  font-size: 1.0em;
+  text-align: center;
+}
+
+.final p {
+  margin-right:5px;
+  line-height: 1.7em;
+  color: white;
+  font-size:0.8em ;
+}
+
+.final a {
+  text-decoration: none;
+  color: white;
+  background: red;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.final a:hover {
+  background: #ff000057;
+  transition: 0.5s;
+}
